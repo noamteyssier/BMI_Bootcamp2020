@@ -14,7 +14,7 @@ class Seq:
 	##This function should store the transcribed dna sequence as an instance variable
 	## and then return the result
 	def transcribe(self):
-		self.rna_seq = ""
+		self.rna_seq = ''.join('U' if x == 'T' else x for x in self.dna_seq)
 		return self.rna_seq
 
 	## This function should store the translated peptide as an instance variable
