@@ -21,5 +21,5 @@ class Seq:
 	## This function should store the translated peptide as an instance variable
 	## and then return the result
 	def translate(self):
-		self.pep_seq = ""
+		self.pep_seq =  ''.join(translation_table[self.dna_seq[i:i+n] for i in range(0, len(self.dna_seq), 3)])
 		return self.pep_seq
