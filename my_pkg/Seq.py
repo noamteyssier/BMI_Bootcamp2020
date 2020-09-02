@@ -9,11 +9,12 @@ class Seq:
 		self.id = ""
 		self.dna_seq = ""
 
+
 	def transcribe(self):
-		self.rna_seq = "RNA"
+		self.rna_seq = ""
 		return self.rna_seq
 
-	def translate(self):
-		self.pep_seq = "PEPTIDE"
-		return self.pep_seq
 
+	def translate(self):
+		self.pep_seq = ""
+		return self.pep_seq

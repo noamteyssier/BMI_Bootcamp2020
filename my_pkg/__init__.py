@@ -1,3 +1,4 @@
 from .Seq import Seq
+from .functions import foo
 
-print('ran init.py')
+
